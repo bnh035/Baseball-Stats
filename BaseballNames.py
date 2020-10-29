@@ -1,5 +1,5 @@
 # Dictionary to convert player names to numbers
-Players = {
+players = {
 "Ken McKell": 1,
 "Peter Won": 2,
 "Rod Carroll": 3,
@@ -14,8 +14,24 @@ Players = {
 "Chris Maher": 12
 }
 
+# Plot colours
+player_colours = {
+"Ken McKell": "hotpink",
+"Peter Won": "gold",
+"Rod Carroll": "deepskyblue",
+"Andrew Bosman": "orange",
+"Tray Toomey": "darkgray",
+"Paul van der Westhuisen": "crimson",
+"Peter Sozou": "lime",
+"Nick Chedra": "black",
+"Mick Pinchin": "green",
+"Brice Hilliard": "red",
+"Jamie Fletcher": "blue",
+"Chris Maher": "purple"
+}
+
 # Dictionary to convert umpire names to numbers
-Umpires = {
+umpires = {
 "D.Massey": 1,
 "D. Massey": 1,
 "J.Dimmers": 2,
@@ -23,7 +39,7 @@ Umpires = {
 }
 
 # Dictionary to convert grounds to numbers
-Grounds = {
+grounds = {
 "Pioneer": 1,
 "Greenway 1": 2,
 "Greenway 2": 3,

@@ -5,12 +5,6 @@
 Date Started: 22 October 2020
 """
 
-# TODO:  Breakup file into separate functions to be called when needed
-# TODO:  Move name dicts to separate file
-# TODO:  Git
-# TODO:  Setup stat DF
-# TODO:  Create output file
-
 __author__ = "Brice Hilliard"
 __version__ = "0.1"
 __email__ = "bricehilliard035@gmail.com"
@@ -172,8 +166,6 @@ def plotAvg(inDF):
             #x = [i for i in range(len(inDF[inDF.Batter == name].BA))]
             plt.plot(inDF[inDF.Batter == name].Game, inDF[inDF.Batter == name].BA)
     plt.legend()
-    # TODO: Type error with line 173
-    # TODO: Add legend with names
     plt.show()
 
 def main():

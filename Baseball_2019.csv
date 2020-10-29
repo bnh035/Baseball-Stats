@@ -1,0 +1,650 @@
+Batter,Game,AB#,Umpire,Ground,Home,Order,Result,Direction,Strt Case,End Case
+Ken McKell,1,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,1,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,1,3,N/A,N/A,N/A,N/A,Throw Out,6,N/A,N/A
+Ken McKell,2,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,2,2,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Ken McKell,2,3,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Ken McKell,2,4,N/A,N/A,N/A,N/A,Throw Out,6,N/A,N/A
+Ken McKell,2,5,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Ken McKell,3,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Ken McKell,3,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Ken McKell,3,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Ken McKell,4,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,4,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,4,3,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Ken McKell,4,4,N/A,N/A,N/A,N/A,Fly Out,6,N/A,N/A
+Ken McKell,5,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Ken McKell,5,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Ken McKell,5,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Ken McKell,6,1,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Ken McKell,6,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,6,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,6,4,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Ken McKell,7,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,7,2,N/A,N/A,N/A,N/A,Triple,7,N/A,N/A
+Ken McKell,7,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Ken McKell,8,1,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Ken McKell,8,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,8,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,8,4,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,9,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Ken McKell,9,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Ken McKell,9,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Ken McKell,9,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Ken McKell,10,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,10,2,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Ken McKell,10,3,N/A,N/A,N/A,N/A,Throw Out,5,N/A,N/A
+Ken McKell,11,1,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Ken McKell,11,2,N/A,N/A,N/A,N/A,Error,6,N/A,N/A
+Ken McKell,11,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,11,4,N/A,N/A,N/A,N/A,Throw Out,6,N/A,N/A
+Ken McKell,12,1,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Ken McKell,12,2,N/A,N/A,N/A,N/A,Fielders Choice,5,N/A,N/A
+Ken McKell,12,3,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Ken McKell,12,4,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,13,1,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Ken McKell,13,2,N/A,N/A,N/A,N/A,Throw Out,4,N/A,N/A
+Ken McKell,13,3,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Ken McKell,14,1,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Ken McKell,14,2,N/A,N/A,N/A,N/A,Throw Out,5,N/A,N/A
+Ken McKell,14,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Ken McKell,14,4,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Ken McKell,15,1,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Ken McKell,15,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Ken McKell,15,3,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Ken McKell,16,1,N/A,N/A,N/A,N/A,Error,5,N/A,N/A
+Ken McKell,16,2,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Ken McKell,16,3,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Ken McKell,16,4,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Ken McKell,16,5,N/A,N/A,N/A,N/A,#REF!,#REF!,N/A,N/A
+Peter Won,1,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Peter Won,1,2,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Peter Won,1,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Peter Won,2,1,N/A,N/A,N/A,N/A,Fielders Choice,6,N/A,N/A
+Peter Won,2,2,N/A,N/A,N/A,N/A,Double,8,N/A,N/A
+Peter Won,2,3,N/A,N/A,N/A,N/A,Fly Out,0,N/A,N/A
+Peter Won,2,4,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Peter Won,2,5,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Won,3,1,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Peter Won,3,2,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Peter Won,3,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Peter Won,4,1,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Peter Won,4,2,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Peter Won,4,3,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Peter Won,4,4,N/A,N/A,N/A,N/A,Caught Line,5,N/A,N/A
+Peter Won,5,1,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Peter Won,5,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Peter Won,5,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Peter Won,6,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Won,6,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Won,6,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Won,6,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Won,7,1,N/A,N/A,N/A,N/A,Triple,8,N/A,N/A
+Peter Won,7,2,N/A,N/A,N/A,N/A,Throw Out,4,N/A,N/A
+Peter Won,7,3,N/A,N/A,N/A,N/A,Single,1,N/A,N/A
+Peter Won,8,1,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Peter Won,8,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Peter Won,8,3,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Peter Won,8,4,N/A,N/A,N/A,N/A,Fly Out,4,N/A,N/A
+Peter Won,9,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Won,9,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Won,9,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Won,9,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Won,10,1,N/A,N/A,N/A,N/A,Throw Out,6,N/A,N/A
+Peter Won,10,2,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Peter Won,10,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Peter Won,11,1,N/A,N/A,N/A,N/A,Double,7,N/A,N/A
+Peter Won,11,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Peter Won,11,3,N/A,N/A,N/A,N/A,Throw Out,4,N/A,N/A
+Peter Won,11,4,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Peter Won,12,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Won,12,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Won,12,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Won,12,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Won,13,1,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Peter Won,13,2,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Peter Won,13,3,N/A,N/A,N/A,N/A,Fly Out,3,N/A,N/A
+Peter Won,14,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Peter Won,14,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Peter Won,14,3,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Peter Won,14,4,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Peter Won,15,1,N/A,N/A,N/A,N/A,Fly Out,6,N/A,N/A
+Peter Won,15,2,N/A,N/A,N/A,N/A,Fly Out,6,N/A,N/A
+Peter Won,15,3,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Peter Won,16,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Peter Won,16,2,N/A,N/A,N/A,N/A,Triple,8,N/A,N/A
+Peter Won,16,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Peter Won,16,4,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Peter Won,16,5,N/A,N/A,N/A,N/A,#REF!,#REF!,N/A,N/A
+Rod Carroll,1,1,N/A,N/A,N/A,N/A,Throw Out,1,N/A,N/A
+Rod Carroll,1,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Rod Carroll,1,3,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Rod Carroll,2,1,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Rod Carroll,2,2,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Rod Carroll,2,3,N/A,N/A,N/A,N/A,Double,7,N/A,N/A
+Rod Carroll,2,4,N/A,N/A,N/A,N/A,Muffed Fly,6,N/A,N/A
+Rod Carroll,2,5,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Rod Carroll,3,1,N/A,N/A,N/A,N/A,Fielders Choice,6,N/A,N/A
+Rod Carroll,3,2,N/A,N/A,N/A,N/A,Fielders Choice,6,N/A,N/A
+Rod Carroll,3,3,N/A,N/A,N/A,N/A,Muffed Fly,5,N/A,N/A
+Rod Carroll,4,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Rod Carroll,4,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Rod Carroll,4,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Rod Carroll,4,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Rod Carroll,5,1,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Rod Carroll,5,2,N/A,N/A,N/A,N/A,Throw Out,5,N/A,N/A
+Rod Carroll,5,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Rod Carroll,6,1,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Rod Carroll,6,2,N/A,N/A,N/A,N/A,Throw Out,5,N/A,N/A
+Rod Carroll,6,3,N/A,N/A,N/A,N/A,Double,7,N/A,N/A
+Rod Carroll,6,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Rod Carroll,7,1,N/A,N/A,N/A,N/A,Fly Out,5,N/A,N/A
+Rod Carroll,7,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Rod Carroll,7,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Rod Carroll,8,1,N/A,N/A,N/A,N/A,Muffed Fly,7,N/A,N/A
+Rod Carroll,8,2,N/A,N/A,N/A,N/A,Fly Out,6,N/A,N/A
+Rod Carroll,8,3,N/A,N/A,N/A,N/A,Muffed Fly,4,N/A,N/A
+Rod Carroll,8,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Rod Carroll,9,1,N/A,N/A,N/A,N/A,Error,5,N/A,N/A
+Rod Carroll,9,2,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Rod Carroll,9,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Rod Carroll,9,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Rod Carroll,10,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Rod Carroll,10,2,N/A,N/A,N/A,N/A,Fly Out,4,N/A,N/A
+Rod Carroll,10,3,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Rod Carroll,11,1,N/A,N/A,N/A,N/A,Throw Out,6,N/A,N/A
+Rod Carroll,11,2,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Rod Carroll,11,3,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Rod Carroll,11,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Rod Carroll,12,1,N/A,N/A,N/A,N/A,Fly Out,5,N/A,N/A
+Rod Carroll,12,2,N/A,N/A,N/A,N/A,Triple,7,N/A,N/A
+Rod Carroll,12,3,N/A,N/A,N/A,N/A,Fly Out,5,N/A,N/A
+Rod Carroll,12,4,N/A,N/A,N/A,N/A,Home,8,N/A,N/A
+Rod Carroll,13,1,N/A,N/A,N/A,N/A,Fielders Choice,1,N/A,N/A
+Rod Carroll,13,2,N/A,N/A,N/A,N/A,Throw Out,3,N/A,N/A
+Rod Carroll,13,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Rod Carroll,14,1,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Rod Carroll,14,2,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Rod Carroll,14,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Rod Carroll,14,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Rod Carroll,15,1,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Rod Carroll,15,2,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Rod Carroll,15,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Rod Carroll,16,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Rod Carroll,16,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Rod Carroll,16,3,N/A,N/A,N/A,N/A,Fielders Choice,6,N/A,N/A
+Rod Carroll,16,4,N/A,N/A,N/A,N/A,Error,6,N/A,N/A
+Rod Carroll,16,5,N/A,N/A,N/A,N/A,#REF!,#REF!,N/A,N/A
+Andrew Bosman,1,1,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Andrew Bosman,1,2,N/A,N/A,N/A,N/A,Double,8,N/A,N/A
+Andrew Bosman,1,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,2,1,N/A,N/A,N/A,N/A,Caught Line,6,N/A,N/A
+Andrew Bosman,2,2,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Andrew Bosman,2,3,N/A,N/A,N/A,N/A,Double,7,N/A,N/A
+Andrew Bosman,2,4,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Andrew Bosman,2,5,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Andrew Bosman,3,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,3,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Andrew Bosman,3,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,4,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,4,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,4,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Andrew Bosman,4,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Andrew Bosman,5,1,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Andrew Bosman,5,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,5,3,N/A,N/A,N/A,N/A,Fly Out,7,N/A,N/A
+Andrew Bosman,6,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,6,2,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Andrew Bosman,6,3,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Andrew Bosman,6,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Andrew Bosman,7,1,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Andrew Bosman,7,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,7,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Andrew Bosman,8,1,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Andrew Bosman,8,2,N/A,N/A,N/A,N/A,Caught Line,6,N/A,N/A
+Andrew Bosman,8,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Andrew Bosman,8,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Andrew Bosman,9,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,9,2,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Andrew Bosman,9,3,N/A,N/A,N/A,N/A,Triple,7,N/A,N/A
+Andrew Bosman,9,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Andrew Bosman,10,1,N/A,N/A,N/A,N/A,Double,7,N/A,N/A
+Andrew Bosman,10,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,10,3,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Andrew Bosman,11,1,N/A,N/A,N/A,N/A,Muffed Fly,6,N/A,N/A
+Andrew Bosman,11,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,11,3,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Andrew Bosman,11,4,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Andrew Bosman,12,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,12,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,12,3,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Andrew Bosman,12,4,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Andrew Bosman,13,1,N/A,N/A,N/A,N/A,Double,7,N/A,N/A
+Andrew Bosman,13,2,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Andrew Bosman,13,3,N/A,N/A,N/A,N/A,Caught Line,5,N/A,N/A
+Andrew Bosman,14,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Andrew Bosman,14,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Andrew Bosman,14,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Andrew Bosman,14,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Andrew Bosman,15,1,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Andrew Bosman,15,2,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Andrew Bosman,15,3,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Andrew Bosman,16,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Andrew Bosman,16,2,N/A,N/A,N/A,N/A,Double,7,N/A,N/A
+Andrew Bosman,16,3,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Andrew Bosman,16,4,N/A,N/A,N/A,N/A,Fly Out,5,N/A,N/A
+Andrew Bosman,16,5,N/A,N/A,N/A,N/A,#REF!,#REF!,N/A,N/A
+Tray Toomey,1,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Tray Toomey,1,2,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Tray Toomey,1,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Tray Toomey,2,1,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Tray Toomey,2,2,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Tray Toomey,2,3,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Tray Toomey,2,4,N/A,N/A,N/A,N/A,Double,8,N/A,N/A
+Tray Toomey,2,5,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Tray Toomey,3,1,N/A,N/A,N/A,N/A,Fielders Choice,6,N/A,N/A
+Tray Toomey,3,2,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Tray Toomey,3,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Tray Toomey,4,1,N/A,N/A,N/A,N/A,Single,3,N/A,N/A
+Tray Toomey,4,2,N/A,N/A,N/A,N/A,Fly Out,6,N/A,N/A
+Tray Toomey,4,3,N/A,N/A,N/A,N/A,Single,4,N/A,N/A
+Tray Toomey,4,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Tray Toomey,5,1,N/A,N/A,N/A,N/A,Throw Out,6,N/A,N/A
+Tray Toomey,5,2,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Tray Toomey,5,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Tray Toomey,6,1,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Tray Toomey,6,2,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Tray Toomey,6,3,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Tray Toomey,6,4,N/A,N/A,N/A,N/A,Single,3,N/A,N/A
+Tray Toomey,7,1,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Tray Toomey,7,2,N/A,N/A,N/A,N/A,Caught Line,5,N/A,N/A
+Tray Toomey,7,3,N/A,N/A,N/A,N/A,Triple,8,N/A,N/A
+Tray Toomey,8,1,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Tray Toomey,8,2,N/A,N/A,N/A,N/A,Throw Out,6,N/A,N/A
+Tray Toomey,8,3,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Tray Toomey,8,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Tray Toomey,9,1,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Tray Toomey,9,2,N/A,N/A,N/A,N/A,Fly Out,3,N/A,N/A
+Tray Toomey,9,3,N/A,N/A,N/A,N/A,Single,1,N/A,N/A
+Tray Toomey,9,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Tray Toomey,10,1,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Tray Toomey,10,2,N/A,N/A,N/A,N/A,Triple,9,N/A,N/A
+Tray Toomey,10,3,N/A,N/A,N/A,N/A,Triple,8,N/A,N/A
+Tray Toomey,11,1,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Tray Toomey,11,2,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Tray Toomey,11,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Tray Toomey,11,4,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Tray Toomey,12,1,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Tray Toomey,12,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Tray Toomey,12,3,N/A,N/A,N/A,N/A,Fly Out,6,N/A,N/A
+Tray Toomey,12,4,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Tray Toomey,13,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Tray Toomey,13,2,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Tray Toomey,13,3,N/A,N/A,N/A,N/A,Throw Out,1,N/A,N/A
+Tray Toomey,14,1,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Tray Toomey,14,2,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Tray Toomey,14,3,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Tray Toomey,14,4,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Tray Toomey,15,1,N/A,N/A,N/A,N/A,Throw Out,1,N/A,N/A
+Tray Toomey,15,2,N/A,N/A,N/A,N/A,Throw Out,4,N/A,N/A
+Tray Toomey,15,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Tray Toomey,16,1,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Tray Toomey,16,2,N/A,N/A,N/A,N/A,Double,8,N/A,N/A
+Tray Toomey,16,3,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Tray Toomey,16,4,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Tray Toomey,16,5,N/A,N/A,N/A,N/A,#REF!,#REF!,N/A,N/A
+Paul van der Westhuisen,1,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Paul van der Westhuisen,1,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Paul van der Westhuisen,1,3,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Paul van der Westhuisen,2,1,N/A,N/A,N/A,N/A,Throw Out,6,N/A,N/A
+Paul van der Westhuisen,2,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Paul van der Westhuisen,2,3,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Paul van der Westhuisen,2,4,N/A,N/A,N/A,N/A,Single,1,N/A,N/A
+Paul van der Westhuisen,2,5,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Paul van der Westhuisen,3,1,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Paul van der Westhuisen,3,2,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Paul van der Westhuisen,3,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Paul van der Westhuisen,4,1,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Paul van der Westhuisen,4,2,N/A,N/A,N/A,N/A,Infield Fly,0,N/A,N/A
+Paul van der Westhuisen,4,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Paul van der Westhuisen,4,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Paul van der Westhuisen,5,1,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Paul van der Westhuisen,5,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Paul van der Westhuisen,5,3,N/A,N/A,N/A,N/A,Muffed Fly,5,N/A,N/A
+Paul van der Westhuisen,6,1,N/A,N/A,N/A,N/A,Single,4,N/A,N/A
+Paul van der Westhuisen,6,2,N/A,N/A,N/A,N/A,Double,7,N/A,N/A
+Paul van der Westhuisen,6,3,N/A,N/A,N/A,N/A,Muffed Fly,4,N/A,N/A
+Paul van der Westhuisen,6,4,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Paul van der Westhuisen,7,1,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Paul van der Westhuisen,7,2,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Paul van der Westhuisen,7,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Paul van der Westhuisen,8,1,N/A,N/A,N/A,N/A,Home,9,N/A,N/A
+Paul van der Westhuisen,8,2,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Paul van der Westhuisen,8,3,N/A,N/A,N/A,N/A,Throw Out,3,N/A,N/A
+Paul van der Westhuisen,8,4,N/A,N/A,N/A,N/A,Fielders Choice,4,N/A,N/A
+Paul van der Westhuisen,9,1,N/A,N/A,N/A,N/A,Home,7,N/A,N/A
+Paul van der Westhuisen,9,2,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Paul van der Westhuisen,9,3,N/A,N/A,N/A,N/A,Fly Out,7,N/A,N/A
+Paul van der Westhuisen,9,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Paul van der Westhuisen,10,1,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Paul van der Westhuisen,10,2,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Paul van der Westhuisen,10,3,N/A,N/A,N/A,N/A,Throw Out,1,N/A,N/A
+Paul van der Westhuisen,11,1,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Paul van der Westhuisen,11,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Paul van der Westhuisen,11,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Paul van der Westhuisen,11,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Paul van der Westhuisen,12,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Paul van der Westhuisen,12,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Paul van der Westhuisen,12,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Paul van der Westhuisen,12,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Paul van der Westhuisen,13,1,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Paul van der Westhuisen,13,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Paul van der Westhuisen,13,3,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Paul van der Westhuisen,14,1,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Paul van der Westhuisen,14,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Paul van der Westhuisen,14,3,N/A,N/A,N/A,N/A,Single,1,N/A,N/A
+Paul van der Westhuisen,14,4,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Paul van der Westhuisen,15,1,N/A,N/A,N/A,N/A,Double,4,N/A,N/A
+Paul van der Westhuisen,15,2,N/A,N/A,N/A,N/A,Single,4,N/A,N/A
+Paul van der Westhuisen,15,3,N/A,N/A,N/A,N/A,Throw Out,1,N/A,N/A
+Paul van der Westhuisen,16,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Paul van der Westhuisen,16,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Paul van der Westhuisen,16,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Paul van der Westhuisen,16,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Paul van der Westhuisen,16,5,N/A,N/A,N/A,N/A,#REF!,#REF!,N/A,N/A
+Peter Sozou,1,1,N/A,N/A,N/A,N/A,Error,1,N/A,N/A
+Peter Sozou,1,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Peter Sozou,1,3,N/A,N/A,N/A,N/A,Fielders Choice,1,N/A,N/A
+Peter Sozou,2,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,2,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,2,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,2,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,2,5,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,3,1,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Peter Sozou,3,2,N/A,N/A,N/A,N/A,Caught Line,6,N/A,N/A
+Peter Sozou,3,3,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Peter Sozou,4,1,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Peter Sozou,4,2,N/A,N/A,N/A,N/A,Fly Out,7,N/A,N/A
+Peter Sozou,4,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Peter Sozou,4,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,5,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,5,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,5,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,6,1,N/A,N/A,N/A,N/A,Single,4,N/A,N/A
+Peter Sozou,6,2,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Peter Sozou,6,3,N/A,N/A,N/A,N/A,Error,3,N/A,N/A
+Peter Sozou,6,4,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Peter Sozou,7,1,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Peter Sozou,7,2,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Peter Sozou,7,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,8,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,8,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,8,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,8,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,9,1,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Peter Sozou,9,2,N/A,N/A,N/A,N/A,Error,3,N/A,N/A
+Peter Sozou,9,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Peter Sozou,9,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,10,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,10,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,10,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,11,1,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Peter Sozou,11,2,N/A,N/A,N/A,N/A,Throw Out,5,N/A,N/A
+Peter Sozou,11,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Peter Sozou,11,4,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Peter Sozou,12,1,N/A,N/A,N/A,N/A,Error,5,N/A,N/A
+Peter Sozou,12,2,N/A,N/A,N/A,N/A,Fielders Choice,5,N/A,N/A
+Peter Sozou,12,3,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Peter Sozou,12,4,N/A,N/A,N/A,N/A,Muffed Fly,7,N/A,N/A
+Peter Sozou,13,1,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Peter Sozou,13,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Peter Sozou,13,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,14,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,14,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,14,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,14,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,15,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,15,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,15,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,16,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,16,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,16,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,16,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Peter Sozou,16,5,N/A,N/A,N/A,N/A,#REF!,#REF!,N/A,N/A
+Nick Chedra,1,1,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Nick Chedra,1,2,N/A,N/A,N/A,N/A,Fly Out,6,N/A,N/A
+Nick Chedra,1,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Nick Chedra,2,1,N/A,N/A,N/A,N/A,Throw Out,5,N/A,N/A
+Nick Chedra,2,2,N/A,N/A,N/A,N/A,Fielders Choice,6,N/A,N/A
+Nick Chedra,2,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Nick Chedra,2,4,N/A,N/A,N/A,N/A,Fielders Choice,4,N/A,N/A
+Nick Chedra,2,5,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Nick Chedra,3,1,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Nick Chedra,3,2,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Nick Chedra,3,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Nick Chedra,4,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Nick Chedra,4,2,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Nick Chedra,4,3,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Nick Chedra,4,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Nick Chedra,5,1,N/A,N/A,N/A,N/A,Throw Out,3,N/A,N/A
+Nick Chedra,5,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Nick Chedra,5,3,N/A,N/A,N/A,N/A,Throw Out,1,N/A,N/A
+Nick Chedra,6,1,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Nick Chedra,6,2,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Nick Chedra,6,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Nick Chedra,6,4,N/A,N/A,N/A,N/A,Fielders Choice,4,N/A,N/A
+Nick Chedra,7,1,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Nick Chedra,7,2,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Nick Chedra,7,3,N/A,N/A,N/A,N/A,Muffed Fly,8,N/A,N/A
+Nick Chedra,8,1,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Nick Chedra,8,2,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Nick Chedra,8,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Nick Chedra,8,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Nick Chedra,9,1,N/A,N/A,N/A,N/A,Fielders Choice,5,N/A,N/A
+Nick Chedra,9,2,N/A,N/A,N/A,N/A,Double,8,N/A,N/A
+Nick Chedra,9,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Nick Chedra,9,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Nick Chedra,10,1,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Nick Chedra,10,2,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Nick Chedra,10,3,N/A,N/A,N/A,N/A,Single,4,N/A,N/A
+Nick Chedra,11,1,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Nick Chedra,11,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Nick Chedra,11,3,N/A,N/A,N/A,N/A,Fly Out,6,N/A,N/A
+Nick Chedra,11,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Nick Chedra,12,1,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Nick Chedra,12,2,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Nick Chedra,12,3,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Nick Chedra,12,4,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Nick Chedra,13,1,N/A,N/A,N/A,N/A,Muffed Fly,3,N/A,N/A
+Nick Chedra,13,2,N/A,N/A,N/A,N/A,Throw Out,3,N/A,N/A
+Nick Chedra,13,3,N/A,N/A,N/A,N/A,Throw Out,1,N/A,N/A
+Nick Chedra,14,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Nick Chedra,14,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Nick Chedra,14,3,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Nick Chedra,14,4,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Nick Chedra,15,1,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Nick Chedra,15,2,N/A,N/A,N/A,N/A,Double,7,N/A,N/A
+Nick Chedra,15,3,N/A,N/A,N/A,N/A,Error,5,N/A,N/A
+Nick Chedra,16,1,N/A,N/A,N/A,N/A,Error,1,N/A,N/A
+Nick Chedra,16,2,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Nick Chedra,16,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Nick Chedra,16,4,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Nick Chedra,16,5,N/A,N/A,N/A,N/A,#REF!,#REF!,N/A,N/A
+Mick Pinchin,1,1,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Mick Pinchin,1,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Mick Pinchin,1,3,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Mick Pinchin,2,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Mick Pinchin,2,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Mick Pinchin,2,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Mick Pinchin,2,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Mick Pinchin,2,5,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Mick Pinchin,3,1,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Mick Pinchin,3,2,N/A,N/A,N/A,N/A,Fielders Choice,5,N/A,N/A
+Mick Pinchin,3,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Mick Pinchin,4,1,N/A,N/A,N/A,N/A,Home,0,N/A,N/A
+Mick Pinchin,4,2,N/A,N/A,N/A,N/A,Single,3,N/A,N/A
+Mick Pinchin,4,3,N/A,N/A,N/A,N/A,Double,7,N/A,N/A
+Mick Pinchin,4,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Mick Pinchin,5,1,N/A,N/A,N/A,N/A,Throw Out,4,N/A,N/A
+Mick Pinchin,5,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Mick Pinchin,5,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Mick Pinchin,6,1,N/A,N/A,N/A,N/A,Fly Out,7,N/A,N/A
+Mick Pinchin,6,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Mick Pinchin,6,3,N/A,N/A,N/A,N/A,Fielders Choice,5,N/A,N/A
+Mick Pinchin,6,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Mick Pinchin,7,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Mick Pinchin,7,2,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Mick Pinchin,7,3,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Mick Pinchin,8,1,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Mick Pinchin,8,2,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Mick Pinchin,8,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Mick Pinchin,8,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Mick Pinchin,9,1,N/A,N/A,N/A,N/A,Home,8,N/A,N/A
+Mick Pinchin,9,2,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Mick Pinchin,9,3,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Mick Pinchin,9,4,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Mick Pinchin,10,1,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Mick Pinchin,10,2,N/A,N/A,N/A,N/A,Double,8,N/A,N/A
+Mick Pinchin,10,3,N/A,N/A,N/A,N/A,Fly Out,9,N/A,N/A
+Mick Pinchin,11,1,N/A,N/A,N/A,N/A,Double,8,N/A,N/A
+Mick Pinchin,11,2,N/A,N/A,N/A,N/A,Error,5,N/A,N/A
+Mick Pinchin,11,3,N/A,N/A,N/A,N/A,Double,8,N/A,N/A
+Mick Pinchin,11,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Mick Pinchin,12,1,N/A,N/A,N/A,N/A,Double,8,N/A,N/A
+Mick Pinchin,12,2,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Mick Pinchin,12,3,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Mick Pinchin,12,4,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Mick Pinchin,13,1,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Mick Pinchin,13,2,N/A,N/A,N/A,N/A,Double,8,N/A,N/A
+Mick Pinchin,13,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Mick Pinchin,14,1,N/A,N/A,N/A,N/A,Error,8,N/A,N/A
+Mick Pinchin,14,2,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Mick Pinchin,14,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Mick Pinchin,14,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Mick Pinchin,15,1,N/A,N/A,N/A,N/A,Fly Out,5,N/A,N/A
+Mick Pinchin,15,2,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Mick Pinchin,15,3,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Mick Pinchin,16,1,N/A,N/A,N/A,N/A,Fielders Choice,5,N/A,N/A
+Mick Pinchin,16,2,N/A,N/A,N/A,N/A,Double,8,N/A,N/A
+Mick Pinchin,16,3,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Mick Pinchin,16,4,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Mick Pinchin,16,5,N/A,N/A,N/A,N/A,#REF!,#REF!,N/A,N/A
+Brice Hilliard,1,1,N/A,N/A,N/A,N/A,Throw Out,1,N/A,N/A
+Brice Hilliard,1,2,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Brice Hilliard,1,3,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Brice Hilliard,2,1,N/A,N/A,N/A,N/A,Fly Out,9,N/A,N/A
+Brice Hilliard,2,2,N/A,N/A,N/A,N/A,Single,4,N/A,N/A
+Brice Hilliard,2,3,N/A,N/A,N/A,N/A,Error,5,N/A,N/A
+Brice Hilliard,2,4,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Brice Hilliard,2,5,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Brice Hilliard,3,1,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Brice Hilliard,3,2,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Brice Hilliard,3,3,N/A,N/A,N/A,N/A,Fly Out,3,N/A,N/A
+Brice Hilliard,4,1,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Brice Hilliard,4,2,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Brice Hilliard,4,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Brice Hilliard,4,4,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Brice Hilliard,5,1,N/A,N/A,N/A,N/A,Fielders Choice,5,N/A,N/A
+Brice Hilliard,5,2,N/A,N/A,N/A,N/A,Error,5,N/A,N/A
+Brice Hilliard,5,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Brice Hilliard,6,1,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Brice Hilliard,6,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Brice Hilliard,6,3,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Brice Hilliard,6,4,N/A,N/A,N/A,N/A,Single,3,N/A,N/A
+Brice Hilliard,7,1,N/A,N/A,N/A,N/A,Fly Out,7,N/A,N/A
+Brice Hilliard,7,2,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Brice Hilliard,7,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Brice Hilliard,8,1,N/A,N/A,N/A,N/A,Error,4,N/A,N/A
+Brice Hilliard,8,2,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Brice Hilliard,8,3,N/A,N/A,N/A,N/A,Home,8,N/A,N/A
+Brice Hilliard,8,4,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Brice Hilliard,9,1,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Brice Hilliard,9,2,N/A,N/A,N/A,N/A,Double,8,N/A,N/A
+Brice Hilliard,9,3,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Brice Hilliard,9,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Brice Hilliard,10,1,N/A,N/A,N/A,N/A,Error,4,N/A,N/A
+Brice Hilliard,10,2,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Brice Hilliard,10,3,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Brice Hilliard,11,1,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Brice Hilliard,11,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Brice Hilliard,11,3,N/A,N/A,N/A,N/A,Infield Fly,1,N/A,N/A
+Brice Hilliard,11,4,N/A,N/A,N/A,N/A,Fly Out,3,N/A,N/A
+Brice Hilliard,12,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Brice Hilliard,12,2,N/A,N/A,N/A,N/A,Throw Out,6,N/A,N/A
+Brice Hilliard,12,3,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Brice Hilliard,12,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Brice Hilliard,13,1,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Brice Hilliard,13,2,N/A,N/A,N/A,N/A,Throw Out,1,N/A,N/A
+Brice Hilliard,13,3,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Brice Hilliard,14,1,N/A,N/A,N/A,N/A,Caught Line,5,N/A,N/A
+Brice Hilliard,14,2,N/A,N/A,N/A,N/A,Single,3,N/A,N/A
+Brice Hilliard,14,3,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Brice Hilliard,14,4,N/A,N/A,N/A,N/A,Throw Out,1,N/A,N/A
+Brice Hilliard,15,1,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Brice Hilliard,15,2,N/A,N/A,N/A,N/A,Double,9,N/A,N/A
+Brice Hilliard,15,3,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Brice Hilliard,16,1,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Brice Hilliard,16,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Brice Hilliard,16,3,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Brice Hilliard,16,4,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Brice Hilliard,16,5,N/A,N/A,N/A,N/A,#REF!,#REF!,N/A,N/A
+Jamie Fletcher,1,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,1,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,1,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,2,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,2,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,2,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,2,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,2,5,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,3,1,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Jamie Fletcher,3,2,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Jamie Fletcher,3,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,4,1,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Jamie Fletcher,4,2,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Jamie Fletcher,4,3,N/A,N/A,N/A,N/A,Single,5,N/A,N/A
+Jamie Fletcher,4,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,5,1,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Jamie Fletcher,5,2,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Jamie Fletcher,5,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,6,1,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Jamie Fletcher,6,2,N/A,N/A,N/A,N/A,Error,3,N/A,N/A
+Jamie Fletcher,6,3,N/A,N/A,N/A,N/A,Double,7,N/A,N/A
+Jamie Fletcher,6,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,7,1,N/A,N/A,N/A,N/A,Fly Out,4,N/A,N/A
+Jamie Fletcher,7,2,N/A,N/A,N/A,N/A,Single,9,N/A,N/A
+Jamie Fletcher,7,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,8,1,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Jamie Fletcher,8,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Jamie Fletcher,8,3,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Jamie Fletcher,8,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,9,1,N/A,N/A,N/A,N/A,Single,6,N/A,N/A
+Jamie Fletcher,9,2,N/A,N/A,N/A,N/A,Fly Out,5,N/A,N/A
+Jamie Fletcher,9,3,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Jamie Fletcher,9,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,10,1,N/A,N/A,N/A,N/A,Error,3,N/A,N/A
+Jamie Fletcher,10,2,N/A,N/A,N/A,N/A,Fielders Choice,5,N/A,N/A
+Jamie Fletcher,10,3,N/A,N/A,N/A,N/A,Double,8,N/A,N/A
+Jamie Fletcher,11,1,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,11,2,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,11,3,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,11,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,12,1,N/A,N/A,N/A,N/A,Fly Out,8,N/A,N/A
+Jamie Fletcher,12,2,N/A,N/A,N/A,N/A,Throw Out,6,N/A,N/A
+Jamie Fletcher,12,3,N/A,N/A,N/A,N/A,Error,6,N/A,N/A
+Jamie Fletcher,12,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,13,1,N/A,N/A,N/A,N/A,KC,0,N/A,N/A
+Jamie Fletcher,13,2,N/A,N/A,N/A,N/A,Muffed Fly,1,N/A,N/A
+Jamie Fletcher,13,3,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Jamie Fletcher,14,1,N/A,N/A,N/A,N/A,HBP,0,N/A,N/A
+Jamie Fletcher,14,2,N/A,N/A,N/A,N/A,Double,7,N/A,N/A
+Jamie Fletcher,14,3,N/A,N/A,N/A,N/A,BB,0,N/A,N/A
+Jamie Fletcher,14,4,N/A,N/A,N/A,N/A,0,0,N/A,N/A
+Jamie Fletcher,15,1,N/A,N/A,N/A,N/A,Single,7,N/A,N/A
+Jamie Fletcher,15,2,N/A,N/A,N/A,N/A,Single,8,N/A,N/A
+Jamie Fletcher,15,3,N/A,N/A,N/A,N/A,K2,0,N/A,N/A
+Jamie Fletcher,16,1,N/A,N/A,N/A,N/A,Interference,0,N/A,N/A
+Jamie Fletcher,16,2,N/A,N/A,N/A,N/A,Single,3,N/A,N/A
+Jamie Fletcher,16,3,N/A,N/A,N/A,N/A,Error,6,N/A,N/A
+Jamie Fletcher,16,4,N/A,N/A,N/A,N/A,Triple,7,N/A,N/A
+Jamie Fletcher,16,5,N/A,N/A,N/A,N/A,#REF!,#REF!,N/A,N/A

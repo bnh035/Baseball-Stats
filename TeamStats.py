@@ -14,9 +14,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from BaseballNames import players, umpires, grounds, player_colours
 from StatDicts import ResultsOpts, BatStats
-from stat_plot import
-from in_out import
-from processing import
+from processing import add_cum_batting_avg, process_data, cumstat_df
+from stat_plot import plot_avg
+from in_out import import_data, clean_data, print_outcomes
 
 def main():
     a1, a2 = import_data()

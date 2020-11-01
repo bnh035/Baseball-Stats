@@ -1,3 +1,23 @@
+from BaseballNames import players, umpires, grounds, player_colours
+from StatDicts import ResultsOpts, BatStats
+
+def add_hits_col(in_df, option_dict):
+    """Add a column that classifies batting outcomes from the dataframe into
+    hits or another category.
+
+    Args:
+        in_df (DF): the dataframe that the column will be added to.
+        option_dict (dict): the dictionary that defines how the outcomes are to
+                            be classified.
+
+    Returns:
+        out_df (DF): the dataframe that has the hit column added
+    """
+    out_df = in_df
+    out_df.loc[:,'Hits'] = out_df.loc[:,"Result"].map(option_dict)
+
+    return out_df
+
 def add_cum_batting_avg(in_df):
     in_df = add_hits_col(in_df)
 
@@ -62,7 +82,3 @@ def cumstat_df(in_df):
     stat_df["BA"] = stat_df["BA"].round(3)
     stat_df.to_csv("statOut.csv")
     return stat_df
-
-def add_hits_col(in_df):
-    in_df.loc[:,'Hits'] = in_df.loc[:,"Result"].map(ResultsOpts)
-    return in_df

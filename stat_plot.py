@@ -1,3 +1,6 @@
+from BaseballNames import players, umpires, grounds, player_colours
+import matplotlib.pyplot as plt
+
 def plot_avg(in_df):
     players_inv = {value:key for key, value in players.items()}
     in_df.loc[:,"Batter"] = in_df.loc[:, "Batter"].map(players_inv)

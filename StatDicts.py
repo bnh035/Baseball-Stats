@@ -1,5 +1,5 @@
 # Batting result options. Comment out unused entries
-ResultsOpts = {
+results_options = {
     "Single": "Hit",
     "Double": "Hit",
     "Triple": "Hit",
@@ -22,7 +22,7 @@ ResultsOpts = {
     }
 
 # Batting statistics lists
-BatStats = [
+bat_stats = [
     "BA",
     "OBP",
     "OPS",

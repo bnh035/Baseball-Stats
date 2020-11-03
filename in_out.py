@@ -1,15 +1,20 @@
+import pandas as pd
+from BaseballNames import players, umpires, grounds, player_colours
+
 def import_data():
     # Import csvs
     #---------------
     raw_data_19 = pd.read_csv("Baseball_2019.csv")
     raw_data_20 = pd.read_csv("Baseball_2020.csv")
 
-    return raw_data_19, raw_data_20
+    return [raw_data_19, raw_data_20]
 
-def clean_data(raw_data1, raw_data2):
+def clean_data(raw_data):
     # clean up 2019 data
     #---------------------
     # Strip zeroes, remove rows with #REF!
+    raw_data1 = raw_data[0]
+    raw_data2 = raw_data[1]
     clean1 = raw_data1[raw_data1["Result"] != "0"]
     clean1 = clean1[clean1["Result"] != "#REF!"]
 

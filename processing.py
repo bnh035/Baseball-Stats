@@ -1,5 +1,6 @@
+import pandas as pd
 from BaseballNames import players, umpires, grounds, player_colours
-from StatDicts import ResultsOpts, BatStats
+from StatDicts import results_options, bat_stats
 
 def add_hits_col(in_df, option_dict):
     """Add a column that classifies batting outcomes from the dataframe into
@@ -18,8 +19,8 @@ def add_hits_col(in_df, option_dict):
 
     return out_df
 
-def add_cum_batting_avg(in_df):
-    in_df = add_hits_col(in_df)
+def add_cum_batting_avg(in_df, results_options_1):
+    in_df = add_hits_col(in_df, results_options_1)
 
     for i in in_df.Batter.unique():
         batter_df = in_df[in_df.loc[:,"Batter"] == i]
@@ -34,30 +35,30 @@ def add_cum_batting_avg(in_df):
             out_df = pd.concat([out_df, batter_df], ignore_index=True)
     return out_df
 
-def process_data(in_df):
+def process_data(in_df, results_options_1):
     # Process Data
     #---------------
     # Column for at bat classification
-    in_df = add_hits_col(in_df)
+    in_df = add_hits_col(in_df, results_options_1)
 
     # Count the various batting outcomes
     batting_outcomes = in_df["Result"].value_counts()
 
-    possibilities = sorted(set(ResultsOpts.values()))
-    ResultList = []
+    possibilities = sorted(set(results_options.values()))
+    results_list = []
     for i in possibilities:
-        ResultList.append([key for (key, value) in ResultsOpts.items() if value == i])
+        results_list.append([key for (key, value) in results_options.items() if value == i])
 
     outcomes1 = []
     for j in range(5):
-        outcomes1.append(sum([batting_outcomes[i] for i in ResultList[j]]))
+        outcomes1.append(sum([batting_outcomes[i] for i in results_list[j]]))
 
     outcomes = dict(zip(possibilities, outcomes1))
 
     return outcomes, batting_outcomes
 
-def cumstat_df(in_df):
-    in_df = add_hits_col(in_df)
+def cumstat_df(in_df, results_options_1):
+    in_df = add_hits_col(in_df, results_options_1)
     stat_df_col = ["Batter", "Game", "Hit", "None", "FC", "Err", "Out"]
     stat_df = pd.DataFrame(columns=stat_df_col)
     for y in in_df.Season.unique():
@@ -82,3 +83,25 @@ def cumstat_df(in_df):
     stat_df["BA"] = stat_df["BA"].round(3)
     stat_df.to_csv("statOut.csv")
     return stat_df
+
+def creat_player_df(in_df, player_name):
+    """Split a dataframe by player and create columns from a list.
+
+    Args:
+        in_df (DF): the input dataframe
+        player_name (str): the player that the dataframe will be created for
+
+    return:
+        out_df (DF): the dataframe that the function will return
+    """
+    out_df = in_df[in_df.loc[:, "Batter"] == player_name]
+
+def collate_team_df(in_df):
+    """Fill
+    """
+    return None
+
+def create_year_df(in_df, year):
+    """Fill
+    """
+    return None

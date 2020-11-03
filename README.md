@@ -25,6 +25,7 @@ The files so far only cover basic statistics, essentially on batting average and
 - [ ] Create output file
 - [x] Type error with line 173
 - [x] Add legend with names
+- [ ] Cut down on the imports
 
 ## Data Reporting Libraries
 Below are a list of potential

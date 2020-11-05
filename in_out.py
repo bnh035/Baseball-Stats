@@ -1,16 +1,27 @@
+"""Module Title
+Description
+"""
+
 import pandas as pd
 from BaseballNames import players, umpires, grounds, player_colours
+# TODO: Introduce error handling
+# TODO: Headstring
 
 def import_data():
     # Import csvs
-    #---------------
+    #---------------------
     raw_data_19 = pd.read_csv("Baseball_2019.csv")
     raw_data_20 = pd.read_csv("Baseball_2020.csv")
 
     return [raw_data_19, raw_data_20]
 
 def clean_data(raw_data):
-    # clean up 2019 data
+    """clean up 2019 data
+    """
+    #---------------------
+    # TODO: Doc string
+    # TODO: Concat in import_data. That way don't have to return list
+    # TODO: Apply clean to whole data set
     #---------------------
     # Strip zeroes, remove rows with #REF!
     raw_data1 = raw_data[0]
@@ -41,6 +52,9 @@ def clean_data(raw_data):
 
 def print_outcomes(Array1, Array2):
     # Batting Stats
+    #---------------------
+    # TODO: Break into 2 lists and loop through with exceptions
+    #---------------------
     outcome_dict = {}
     outcome_dict["PA"] = sum(Array1.values())
     outcome_dict["AB"] = outcome_dict["PA"] - Array1["None"]

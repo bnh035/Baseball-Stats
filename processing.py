@@ -1,15 +1,23 @@
+#!/usr/bin/env python
+
+""" Contains functions that are used to input and output data.
+"""
+
+__author__ = "Brice Hilliard"
+__version__ = "0.1"
+__email__ = "bricehilliard035@gmail.com"
+__production__ = "development"
+
 import pandas as pd
 from BaseballNames import players, umpires, grounds, player_colours
 from StatDicts import results_options, bat_stats
 
 def add_hits_col(in_df, option_dict):
-    """Add a column that classifies batting outcomes from the dataframe into
-    hits or another category.
+    """Add a column that classifies batting outcomes from the dataframe into hits or another category.
 
     Args:
         in_df (DF): the dataframe that the column will be added to.
-        option_dict (dict): the dictionary that defines how the outcomes are to
-                            be classified.
+        option_dict (dict): the dictionary that defines how the outcomes are to be classified.
 
     Returns:
         out_df (DF): the dataframe that has the hit column added
@@ -54,6 +62,8 @@ def process_data(in_df, results_options_1):
         outcomes1.append(sum([batting_outcomes[i] for i in results_list[j]]))
 
     outcomes = dict(zip(possibilities, outcomes1))
+    print("Outcomes: " + str(outcomes))
+    print("Batting_outcomes: \n" + str(batting_outcomes))
 
     return outcomes, batting_outcomes
 
@@ -84,7 +94,7 @@ def cumstat_df(in_df, results_options_1):
     stat_df.to_csv("statOut.csv")
     return stat_df
 
-def creat_player_df(in_df, player_name):
+def create_player_df(in_df, player_name):
     """Split a dataframe by player and create columns from a list.
 
     Args:
@@ -95,13 +105,10 @@ def creat_player_df(in_df, player_name):
         out_df (DF): the dataframe that the function will return
     """
     out_df = in_df[in_df.loc[:, "Batter"] == player_name]
-
-def collate_team_df(in_df):
-    """Fill
-    """
-    return None
+    return out_df
 
 def create_year_df(in_df, year):
-    """Fill
-    """
-    return None
+    # Create a df of the specified year
+
+    out_df = in_df[in_df.loc[:, "Season"] == year]
+    return out_df

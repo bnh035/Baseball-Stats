@@ -13,7 +13,7 @@ __production__ = "development"
 import matplotlib.pyplot as plt
 from BaseballNames import players, umpires, grounds, player_colours
 from StatDicts import results_options, bat_stats
-from processing import add_cum_batting_avg, process_data, cumstat_df
+from processing import process_data, cumstat_df, create_df #add_cum_batting_avg, , cumstat_df
 from stat_plot import plot_avg
 from in_out import import_data, clean_data, print_outcomes
 
@@ -21,10 +21,11 @@ def main():
     # print(bat_stats + list(results_options.keys()))
     raw_data = import_data()
     cleaned_data = clean_data(raw_data)
-    cum_stat_df = cumstat_df(cleaned_data, results_options)
-    processed_data1, processed_data2 = process_data(cleaned_data, results_options)
-    print_outcomes(processed_data1, processed_data2)
-    plot_avg(cum_stat_df)
+    create_df(cleaned_data, results_options)
+    #cum_stat_df = cumstat_df(cleaned_data, results_options)
+    #processed_data1, processed_data2 = process_data(cleaned_data, results_options)
+    #print_outcomes(processed_data1, processed_data2)
+    #plot_avg(cum_stat_df)
 
 if __name__ == '__main__':
     main()

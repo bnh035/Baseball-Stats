@@ -9,45 +9,17 @@ __email__ = "bricehilliard035@gmail.com"
 __production__ = "development"
 
 import pandas as pd
+import matplotlib.pyplot as plt
 from BaseballNames import players, umpires, grounds, player_colours
 from StatDicts import results_options, bat_stats
 
-def add_hits_col(in_df, option_dict):
-    """Add a column that classifies batting outcomes from the dataframe into hits or another category.
-
-    Args:
-        in_df (DF): the dataframe that the column will be added to.
-        option_dict (dict): the dictionary that defines how the outcomes are to be classified.
-
-    Returns:
-        out_df (DF): the dataframe that has the hit column added
-    """
-    out_df = in_df
-    out_df.loc[:,'Hits'] = out_df.loc[:,"Result"].map(option_dict)
-
-    return out_df
-
-def add_cum_batting_avg(in_df, results_options_1):
-    in_df = add_hits_col(in_df, results_options_1)
-
-    for i in in_df.Batter.unique():
-        batter_df = in_df[in_df.loc[:,"Batter"] == i]
-        batter_df.loc[:,"HitSum"] = (batter_df.loc[:,"Hits"] == "Hit").cumsum()
-        batter_df.loc[:,"ABSum"] = (batter_df.loc[:,"Hits"] != "None").cumsum()
-        batter_df.loc[:,"CumBA"] = batter_df.loc[:,"HitSum"] / batter_df.loc[:,"ABSum"]
-        batter_df.loc[:,"CumBA"] = batter_df.loc[:,"CumBA"].fillna(0)
-        batter_df.loc[:,"CumBA"] = batter_df.loc[:,"CumBA"].round(3)
-        if i == 1:
-            out_df = batter_df
-        else:
-            out_df = pd.concat([out_df, batter_df], ignore_index=True)
-    return out_df
+#TODO: Figure out why the cumcum is shifting
 
 def process_data(in_df, results_options_1):
     # Process Data
     #---------------
     # Column for at bat classification
-    in_df = add_hits_col(in_df, results_options_1)
+    in_df.loc[:,'Hits'] = in_df.loc[:,"Result"].map(results_options_1)
 
     # Count the various batting outcomes
     batting_outcomes = in_df["Result"].value_counts()
@@ -62,13 +34,30 @@ def process_data(in_df, results_options_1):
         outcomes1.append(sum([batting_outcomes[i] for i in results_list[j]]))
 
     outcomes = dict(zip(possibilities, outcomes1))
-    print("Outcomes: " + str(outcomes))
-    print("Batting_outcomes: \n" + str(batting_outcomes))
 
     return outcomes, batting_outcomes
 
+def create_df(in_df, results_options_1):
+    in_df.loc[:,'Hits'] = in_df.loc[:,"Result"].map(results_options_1)
+    #in_df.loc[:,"CumHits"] = in_df.groupby(["Batter", "Hits"]).cumcount()
+    cum_cols = ["CumHits", "CumOuts", "CumNones", "CumFCs", "CumErrs"]
+    for i in cum_cols:
+        x = i[3:-1]
+        in_df.loc[:,i] = in_df[in_df["Hits"] == x].groupby(["Batter"]).cumcount()
+        in_df[i] = in_df[i].replace(to_replace="NaN", method="ffill")
+    in_df["AB"] = in_df["CumHits"] + in_df["CumOuts"] + in_df["CumFCs"]
+    in_df["BA"] = in_df["CumHits"] / in_df["AB"]
+    in_df["BA"] = in_df["BA"].round(3)
+    plt.figure()
+    plot_df = in_df[in_df["Batter"] == "Brice Hilliard"]["BA"].reset_index()
+    plot_df = plot_df["BA"]
+    plot_df.plot()
+    plt.show()
+    print(plot_df)
+
 def cumstat_df(in_df, results_options_1):
-    in_df = add_hits_col(in_df, results_options_1)
+    in_df.loc[:,'Hits'] = in_df.loc[:,"Result"].map(results_options_1)
+    #in_df = add_hits_col(in_df, results_options_1)
     stat_df_col = ["Batter", "Game", "Hit", "None", "FC", "Err", "Out"]
     stat_df = pd.DataFrame(columns=stat_df_col)
     for y in in_df.Season.unique():

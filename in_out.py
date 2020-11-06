@@ -33,12 +33,15 @@ def clean_data(unclean_data):
     #---------------------
     # Strip zeroes, remove rows with #REF!
     clean_data = unclean_data[unclean_data["Result"] != "0"]
+    clean_data = clean_data.fillna(0)
+    #clean_data[clean_data == "NaN"] = 0
     clean_data = clean_data[clean_data["Result"] != "#REF!"]
 
     # Replace names with numbers
-    clean_data.loc[:,"Batter"] = clean_data.loc[:, "Batter"].map(players)
-    clean_data.loc[:,"Umpire"] = clean_data.loc[:, "Umpire"].map(umpires)
-    clean_data.loc[:,"Ground"] = clean_data.loc[:, "Ground"].map(grounds)
+    if False:
+        clean_data.loc[:,"Batter"] = clean_data.loc[:, "Batter"].map(players)
+        clean_data.loc[:,"Umpire"] = clean_data.loc[:, "Umpire"].map(umpires)
+        clean_data.loc[:,"Ground"] = clean_data.loc[:, "Ground"].map(grounds)
 
     return clean_data
 

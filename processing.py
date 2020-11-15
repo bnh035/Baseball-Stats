@@ -10,6 +10,7 @@ __production__ = "development"
 
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 from BaseballNames import players, umpires, grounds, player_colours
 from StatDicts import results_options, bat_stats
 
@@ -37,23 +38,68 @@ def process_data(in_df, results_options_1):
 
     return outcomes, batting_outcomes
 
+def insert_row(row_number, df, row_value):
+    # Slice the upper half of the dataframe
+    df1 = df[0:row_number]
+
+    # Store the result of lower half of the dataframe
+    df2 = df[row_number:]
+
+    # Inser the row in the upper half dataframe
+    df1.loc[row_number]=row_value
+
+    # Concat the two dataframes
+    df_result = pd.concat([df1, df2])
+
+    # Reassign the index labels
+    df_result.index = [*range(df_result.shape[0])]
+
+    # Return the updated dataframe
+    return df_result
+
+def add_zeroes(df):
+    names = df.Batter.unique()
+    for i in names:
+        prerow = df[(df.loc[:,'Batter'] == i) & (df.loc[:,'Game'] == 1) & (df.loc[:,'AB#'] == 1) & (df.loc[:,'Season'] == 2019)]
+        if len(prerow.index.tolist()) != 0:
+            if prerow.index.tolist()[0] == 0:
+                df.loc[-1] = 0
+                df.index = df.index + 1
+                df.loc[0, ["Batter"]] = i
+            else:
+                insert_row(prerow.index.tolist()[0], df, 0)
+                df.loc[prerow.index.tolist()[0], ["Batter"]] = i
+    df.to_csv("out.csv")
+    return df
+
 def create_df(in_df, results_options_1):
     in_df.loc[:,'Hits'] = in_df.loc[:,"Result"].map(results_options_1)
     #in_df.loc[:,"CumHits"] = in_df.groupby(["Batter", "Hits"]).cumcount()
     cum_cols = ["CumHits", "CumOuts", "CumNones", "CumFCs", "CumErrs"]
     for i in cum_cols:
+        in_df.loc[:,i] = 0
+    in_df = add_zeroes(in_df)
+    batters = in_df.Batter.unique()
+    for i in cum_cols:
         x = i[3:-1]
-        in_df.loc[:,i] = in_df[in_df["Hits"] == x].groupby(["Batter"]).cumcount()
-        in_df[i] = in_df[i].replace(to_replace="NaN", method="ffill")
-    in_df["AB"] = in_df["CumHits"] + in_df["CumOuts"] + in_df["CumFCs"]
-    in_df["BA"] = in_df["CumHits"] / in_df["AB"]
-    in_df["BA"] = in_df["BA"].round(3)
-    plt.figure()
-    plot_df = in_df[in_df["Batter"] == "Brice Hilliard"]["BA"].reset_index()
-    plot_df = plot_df["BA"]
-    plot_df.plot()
-    plt.show()
-    print(plot_df)
+        for player in batters:
+            index_array = in_df[(in_df.loc[:,'Batter'] == player) & (in_df.loc[:,'Hits'] == x)].index.tolist()
+            if len(index_array) != 0:
+                in_df.loc[index_array, i] = np.arange(1,len(index_array)+1)
+    out_df = pd.DataFrame(columns=in_df.columns)
+    for player in batters:
+        next_df = in_df[(in_df.loc[:,'Batter'] == player)]
+        for i in cum_cols:
+            next_df.loc[:,i] = next_df.loc[:,i].replace(to_replace=0, method="ffill")
+        out_df = pd.concat([out_df, next_df])
+        out_df.reset_index()
+    in_df = out_df
+
+    in_df.loc[:,"AB"] = in_df.loc[:,"CumHits"] + in_df.loc[:,"CumOuts"] + in_df.loc[:,"CumFCs"]
+    in_df.loc[:,"BA"] = in_df.loc[:,"CumHits"] / in_df.loc[:,"AB"]
+    in_df.loc[:,"BA"] = in_df.loc[:,"BA"].round(3)
+    in_df.to_csv("out.csv")
+    return in_df
 
 def cumstat_df(in_df, results_options_1):
     in_df.loc[:,'Hits'] = in_df.loc[:,"Result"].map(results_options_1)
@@ -101,3 +147,22 @@ def create_year_df(in_df, year):
 
     out_df = in_df[in_df.loc[:, "Season"] == year]
     return out_df
+
+def create_games_df(in_df):
+    game_vals = []
+    batter_vals = []
+    year_vals = []
+
+    for year in in_df["Season"].unique():
+        for batter in in_df["Batter"].unique():
+            for game in range(1, int(in_df[in_df["Season"] == year]["Game"].max())+1):
+                year_vals.append(int(year))
+                batter_vals.append(batter)
+                game_vals.append(game)
+
+    out_df = pd.DataFrame(columns=in_df.columns)
+    out_df["Season"] = year_vals
+    out_df["Batter"] = batter_vals
+    out_df["Game"] = game_vals
+    out_df["BA"] = in_df[(in_df["Season"].isin(year_vals)) & (in_df["Batter"].isin(batter_vals)) & (in_df["Game"].isin(game_vals))]["BA"].iloc[[-1]]
+    print(out_df)

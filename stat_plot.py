@@ -30,3 +30,12 @@ def plot_avg(in_df):
                 plt.plot(in_df1[in_df1.Batter == name].Game, in_df1[in_df1.Batter == name].BA, label="", color=player_colours[name])
     plt.legend(loc="upper center", ncol=6)
     plt.show()
+
+def plot_ba_pa(df):
+    plt.figure()
+    for batter in df.Batter.unique():
+        plot_df = df[df["Batter"] == batter]["BA"].reset_index()
+        plot_df = plot_df["BA"]
+        plot_df.plot(color=player_colours[batter], label=batter)
+    plt.legend(loc="upper center", ncol=6)
+    plt.show()

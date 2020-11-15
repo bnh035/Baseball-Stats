@@ -10,6 +10,7 @@ __production__ = "development"
 
 import pandas as pd
 from BaseballNames import players, umpires, grounds, player_colours
+import matplotlib.pyplot as plt
 # TODO: Introduce error handling
 
 def import_data():
@@ -36,6 +37,8 @@ def clean_data(unclean_data):
     clean_data = clean_data.fillna(0)
     #clean_data[clean_data == "NaN"] = 0
     clean_data = clean_data[clean_data["Result"] != "#REF!"]
+    clean_data = clean_data.drop(clean_data[(clean_data["Season"] == 2020) & (clean_data["Umpire"] == 0)].index)
+    clean_data = clean_data.drop(clean_data[clean_data["Season"] == 0].index)
 
     # Replace names with numbers
     if False:

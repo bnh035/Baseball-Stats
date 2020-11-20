@@ -72,7 +72,7 @@ def add_zeroes(df):
     df.to_csv("out.csv")
     return df
 
-def create_df(in_df, results_options_1):
+def cum_df(in_df, results_options_1):
     in_df.loc[:,'Hits'] = in_df.loc[:,"Result"].map(results_options_1)
     #in_df.loc[:,"CumHits"] = in_df.groupby(["Batter", "Hits"]).cumcount()
     cum_cols = ["CumHits", "CumOuts", "CumNones", "CumFCs", "CumErrs"]
@@ -101,17 +101,33 @@ def create_df(in_df, results_options_1):
     in_df.to_csv("out.csv")
     return in_df
 
-def cumstat_df(in_df, results_options_1):
+def game_df(in_df, results_options_1):
+    """Create a dataframe of stats based on games.
+
+    Args:
+        in_df (DF): the input dataframe
+        player_name (str): the player that the dataframe will be created for
+
+    return:
+        out_df (DF): the dataframe that the function will return
+    """
+    # Create a new column with PA results categorised.
     in_df.loc[:,'Hits'] = in_df.loc[:,"Result"].map(results_options_1)
-    #in_df = add_hits_col(in_df, results_options_1)
+
+    # List of dataframe columns and a new dataframe using them.
     stat_df_col = ["Batter", "Game", "Hit", "None", "FC", "Err", "Out"]
     stat_df = pd.DataFrame(columns=stat_df_col)
+
     for y in in_df.Season.unique():
+        # Group by season
         in_df1 = in_df[in_df.loc[:, "Season"] == y]
         for i in in_df1.Batter.unique():
+            # Group by batter name
             batter_df = in_df1[in_df1.loc[:, "Batter"] == i]
             for j in sorted(in_df1.Game.unique()):
+                # Group by batter game
                 game_df = batter_df[batter_df.loc[:, "Game"] == j]
+
                 count_dict = game_df.Hits.value_counts()
                 count_dict["Batter"] = i
                 count_dict["Game"] = j + (y - 2019) * 16
@@ -126,6 +142,7 @@ def cumstat_df(in_df, results_options_1):
     stat_df["CumAB"] = stat_df.groupby("Batter")["AB"].cumsum()
     stat_df["BA"] = stat_df["CumHit"] / stat_df["CumAB"]
     stat_df["BA"] = stat_df["BA"].round(3)
+    stat_df = stat_df.drop(stat_df[stat_df.Game<0].index)
     stat_df.to_csv("statOut.csv")
     return stat_df
 

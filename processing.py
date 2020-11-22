@@ -183,3 +183,34 @@ def create_games_df(in_df):
     out_df["Game"] = game_vals
     out_df["BA"] = in_df[(in_df["Season"].isin(year_vals)) & (in_df["Batter"].isin(batter_vals)) & (in_df["Game"].isin(game_vals))]["BA"].iloc[[-1]]
     print(out_df)
+
+def pa_df(in_df):
+    l = in_df.groupby(["Season", "Game"])["AB#"].max().tolist()
+    a = 1
+    year = 2019
+    abs_list, game_list, year_list = [], [], []
+    for i in l:
+        b = 1
+        for j in range(i):
+            abs_list.append(b)
+            game_list.append(a)
+            year_list.append(year)
+            b = b + 1
+        if a < 16:
+            a = a + 1
+        else:
+            year = 2020
+            a = 1
+    player_df = pd.DataFrame()
+    player_df["Batter"] = "Brice Hilliard"
+    player_df["Season"] = year_list
+    player_df["Game"] = game_list
+    player_df["AB"] = abs_list
+    player_df["Result"] = "DNB"
+    comp_df = in_df[in_df["Batter"] == "Brice Hilliard"]
+    comp_df.rename(columns={'AB#':'AB'}, inplace=True)
+    concat_df = pd.concat([player_df, comp_df]).drop_duplicates(["Season", "Game", "AB"], keep=False)
+    concat_df["Result"] = "DNB"
+    concat_df["Batter"] = "Brice Hilliard"
+    comp_df = pd.concat([comp_df, concat_df])
+    print(comp_df[(comp_df["Game"] == 2) & (comp_df["Season"] == 2019)])
